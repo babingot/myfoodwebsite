@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <title>TRIXIE'S OFFICIAL WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <!--Registration Form-->
+        <div class="container">
+            <div class="form-box">
+                <form action="" name="Formfill" onsubmit="return validation()">
+                    <h2>Register</h2>
+                    <p id="result"></p>
+                    <div class="input-box">
+                        <i class='bx bxs-user'></i>
+                        <input type="email" name="text" placeholder="Username">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" name="Password" placeholder="Password">
+                    </div>
+                    <div class="input-box">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="Cpassword" name="cPassword" placeholder="Confirm Password">
+                    </div>
+                    <div class="button">
+                        <input type="submit" class="btn" onclick="validation()" value="Register">
+                    </div>
+                    
+                </form>
+            </div>
+            <!--Creating a pop up value-->
+            <div class="popup" id="pop">
+                <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <h2>Thank you!</h2>
+                <p>Your Registration was Sucessfully. Thanks!</p>
+                <a href="login.html"><button onclick="closeSlide()">OK</button></a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0" />
+        <title>Full website design</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+    <header> 
+        <a href="#" class="logo"><font class="link">FOODS</font></a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home"><font class="link">HOME</font></a></li>
+            <li><a href="#about"><font class="link">ABOUT</font></a></li>
+            <li><a href="#menu"><font class="link">MENU</font></a></li>
+            <li><a href="#services"><font class="link">SERVICE</font></a></li>
+            <li><a href="#contact"><font class="link">CONTACT</font></a></li>
+        </ul>
+    </header>
+         <!-------home start------->
+        <section class="home" id="home">
+              <div class="home-text">
+                    <h1>Full website</h1>
+                 <h2>Food is The <br> Most Precious Things</h2>
+                 <a href="#"class="btn">For Today's Menu: </a>
+
+               </div>
+    
+                <div class="home.png">
+                <img src="./img/home.png">
+    
+                  </div>
+          </section>
+          <!-------about start------->
+
+          <section class="about" id="about">
+            <div class="about-img">
+                <img src="./img/about.png">
+            </div>
+
+            <div class="about-text">
+                <span>About Us</span>
+                <h2>We speak the good <br> food language</h2>
+                <p>Welcome to our food website, where culinary delights await you!
+                    We are your gateway to a world of delicious flavors, tantalizing aromas,
+                    and satisfying meals.</p>
+                <a href="#"class="btn">Learn More</a>
+            </div>
+          </section>
+<br><br.<br>
+
+           <!-------menu start------->
+            <div class="heading">
+                <span>Food Menu</span>
+                <h2>Fresh taste and great price</h2>
+            </div>
+            
+           <section class="menu" id="menu">
+            <div class="menu-container">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="./img/food1.png">
+                    </div>
+                    <h2> Chicken Burger</h2>
+                    <h3>Tasty Food</h3>
+                    <span>$11.00</span>
+                    <i class='bx bx-cart-alt'></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/food2.png">
+                </div>
+                <h2> Special Beef Burger</h2>
+                <h3>Tasty Food</h3>
+                <span>$11.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="./img/food3.png">
+                </div>
+                <h2> Chicken Fry Pack</h2>
+                <h3>Tasty Food</h3>
+                <span>$11.00</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </section>
+   
+    <!-------service start------->
+    <section class="services" id="services">
+        <div class="service-container">
+            <div class="heading">
+                <span>Services</span>
+                <h2>We provide the best quality food</h2>
+            </div>
+            <div class="s-box">
+                <img src="./img/s1.png">
+                <h3>Order</h3>
+                <p>The process of ordering food is designed to be efficient,
+                    convenient, and tailored to your preferences,
+                    ensuring that you have a hassle-free experience
+                    and receive a delightful meal.</p>
+            </div>
+
+            <div class="s-box">
+                <img src="./img/s2.png">
+                <h3>Shipping</h3>
+                <p>Efficient shipping processes prioritize the safety
+                    and prompt delivery of orders, providing customers with
+                    a smooth purchasing experience. From secure packaging to accurate tracking,
+                    shipping ensures that goods reach their destination in optimal condition,
+                    allowing buyers to enjoy their purchases with peace of mind.</p>
+            </div>
+
+            <div class="s-box">
+                <img src="./img/s3.png">
+                <h3>Delivered</h3>
+                <p>Efficient delivery processes prioritize timely and secure transportation,
+                    ensuring that orders reach their intended recipients in excellent condition.
+                    From route planning to communication and confirmation,
+                    the delivery stage plays a crucial role in providing a satisfactory customer experience
+                    and establishing trust between the seller and the buyer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------call to action ------->
+    <section class="cta">
+        <div><h2>We make quality food<br>Everyday</h2> <div> </div><br>
+        <div ><a href="#" class="btn">Let's Talk</a></section><div>
+    </section>
+
+    <!-------footer start------->
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <h4>Menu Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</Menu></a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Marketing</Menu></a></li>
+                        <li><a href="#">Product Management</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                    </ul>
+            </div>
+
+            <div class="col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</Menu></a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+
+        </div>
+
+        <div class="col">
+            <h4>Information</h4>
+            <div class="social">
+                <a id="#URL_1"><i class='bx bxl-facebook'></i></a>
+                <a id="#URL_2"><i class='bx bxl-instagram'></i></a>
+                <a id="#URL_3"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+    </section>
+
+
+    <!----Javascript-->
+    <script type="text/javascript" src="script.js"></script>
+
+
+
+    </body>
+    </html>
